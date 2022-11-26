@@ -10,3 +10,6 @@ class CreateReviews < ActiveRecord::Migration[6.1]
     end
   end
 end
+
+
+ # foreign_key: true establishes a relationship between a review and a dog house
